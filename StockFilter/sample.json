@@ -1,0 +1,327 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "date": "2018-12-31T00:00:00+08:00",
+      "currency": "CNY",
+      "standardDate": "2018-12-31T00:00:00+08:00",
+      "reportDate": "2019-04-26T00:00:00+08:00",
+      "reportType": "annual_report",
+      "h_y": {
+        "profitStatement": {
+          "oi": {
+            "t": 861949898
+          },
+          "np": {
+            "t": 221677434
+          }
+        },
+        "balanceSheet": {
+          "ar": {
+            "t": 188572976
+          },
+          "i": {
+            "t": 5788121
+          },
+          "tca_tcl_r": {
+            "t": 2.6933191340958587
+          }
+        },
+        "cashFlow": {
+          "ncffoa": {
+            "t": 182502660
+          }
+        },
+        "metrics": {
+          "fcf": {
+            "t": 118377594
+          }
+        }
+      },
+      "stockCode": "300571"
+    },
+    {
+      "date": "2018-09-30T00:00:00+08:00",
+      "currency": "CNY",
+      "standardDate": "2018-09-30T00:00:00+08:00",
+      "reportDate": "2018-10-29T00:00:00+08:00",
+      "reportType": "third_quarterly_report",
+      "stockCode": "300571"
+    },
+    {
+      "date": "2018-06-30T00:00:00+08:00",
+      "currency": "CNY",
+      "standardDate": "2018-06-30T00:00:00+08:00",
+      "reportDate": "2018-08-29T00:00:00+08:00",
+      "reportType": "interim_report",
+      "h_y": {
+        "profitStatement": {
+          "oi": {
+            "t": 466214719
+          },
+          "np": {
+            "t": 127439132
+          }
+        },
+        "balanceSheet": {
+          "ar": {
+            "t": 146165021
+          },
+          "i": {
+            "t": 5339626
+          },
+          "tca_tcl_r": {
+            "t": 2.277288343688693
+          }
+        },
+        "cashFlow": {
+          "ncffoa": {
+            "t": 122036596
+          }
+        },
+        "metrics": {
+          "fcf": {
+            "t": 79059723
+          }
+        }
+      },
+      "stockCode": "300571"
+    },
+    {
+      "date": "2018-03-31T00:00:00+08:00",
+      "currency": "CNY",
+      "standardDate": "2018-03-31T00:00:00+08:00",
+      "reportDate": "2018-04-26T00:00:00+08:00",
+      "reportType": "first_quarterly_report",
+      "stockCode": "300571"
+    },
+    {
+      "date": "2017-12-31T00:00:00+08:00",
+      "currency": "CNY",
+      "standardDate": "2017-12-31T00:00:00+08:00",
+      "reportDate": "2018-04-23T00:00:00+08:00",
+      "reportType": "annual_report",
+      "h_y": {
+        "profitStatement": {
+          "oi": {
+            "t": 909950451
+          },
+          "np": {
+            "t": 105808726
+          }
+        },
+        "balanceSheet": {
+          "ar": {
+            "t": 116516116
+          },
+          "i": {
+            "t": 2725173
+          },
+          "tca_tcl_r": {
+            "t": 1.5918379315263484
+          }
+        },
+        "cashFlow": {
+          "ncffoa": {
+            "t": 186997422
+          }
+        },
+        "metrics": {
+          "fcf": {
+            "t": 79624425
+          }
+        }
+      },
+      "stockCode": "300571"
+    },
+    {
+      "date": "2017-09-30T00:00:00+08:00",
+      "reportDate": "2017-10-28T00:00:00+08:00",
+      "reportType": "third_quarterly_report",
+      "currency": "CNY",
+      "standardDate": "2017-09-30T00:00:00+08:00",
+      "stockCode": "300571"
+    },
+    {
+      "date": "2017-06-30T00:00:00+08:00",
+      "reportDate": "2017-08-29T00:00:00+08:00",
+      "reportType": "interim_report",
+      "currency": "CNY",
+      "standardDate": "2017-06-30T00:00:00+08:00",
+      "h_y": {
+        "profitStatement": {
+          "oi": {
+            "t": 419206049
+          },
+          "np": {
+            "t": 50353031
+          }
+        },
+        "balanceSheet": {
+          "ar": {
+            "t": 101690065
+          },
+          "i": {
+            "t": 0
+          },
+          "tca_tcl_r": {
+            "t": 3.5482764118661843
+          }
+        },
+        "cashFlow": {
+          "ncffoa": {
+            "t": 71871950
+          }
+        },
+        "metrics": {
+          "fcf": {
+            "t": 14220860
+          }
+        }
+      },
+      "stockCode": "300571"
+    },
+    {
+      "date": "2017-03-31T00:00:00+08:00",
+      "currency": "CNY",
+      "reportDate": "2017-04-26T00:00:00+08:00",
+      "reportType": "first_quarterly_report",
+      "standardDate": "2017-03-31T00:00:00+08:00",
+      "stockCode": "300571"
+    },
+    {
+      "date": "2016-12-31T00:00:00+08:00",
+      "currency": "CNY",
+      "reportDate": "2017-04-26T00:00:00+08:00",
+      "reportType": "annual_report",
+      "standardDate": "2016-12-31T00:00:00+08:00",
+      "h_y": {
+        "profitStatement": {
+          "oi": {
+            "t": 469017724
+          },
+          "np": {
+            "t": 48309609
+          }
+        },
+        "balanceSheet": {
+          "ar": {
+            "t": 96459824
+          },
+          "i": {
+            "t": 0
+          },
+          "tca_tcl_r": {
+            "t": 3.9036319687677197
+          }
+        },
+        "cashFlow": {
+          "ncffoa": {
+            "t": 82640739
+          }
+        },
+        "metrics": {
+          "fcf": {
+            "t": 50283186
+          }
+        }
+      },
+      "stockCode": "300571"
+    },
+    {
+      "date": "2016-09-30T00:00:00+08:00",
+      "currency": "CNY",
+      "reportDate": "2016-09-30T00:00:00+08:00",
+      "reportType": "third_quarterly_report",
+      "standardDate": "2016-09-30T00:00:00+08:00",
+      "stockCode": "300571"
+    },
+    {
+      "date": "2016-06-30T00:00:00+08:00",
+      "currency": "CNY",
+      "reportDate": "2016-06-30T00:00:00+08:00",
+      "reportType": "interim_report",
+      "standardDate": "2016-06-30T00:00:00+08:00",
+      "h_y": {
+        "profitStatement": {
+          "np": {
+            "t": 24924993.13
+          },
+          "oi": {
+            "t": 159016623.11
+          }
+        },
+        "balanceSheet": {
+          "ar": {
+            "t": 95267220.04
+          },
+          "tca_tcl_r": {
+            "t": 3.3436311799614757
+          },
+          "i": {
+            "t": 0
+          }
+        },
+        "cashFlow": {
+          "ncffoa": {
+            "t": 7651360.81
+          }
+        },
+        "metrics": {
+          "fcf": {
+            "t": -7600903.510000001
+          }
+        }
+      },
+      "stockCode": "300571"
+    },
+    {
+      "date": "2016-03-31T00:00:00+08:00",
+      "currency": "CNY",
+      "reportDate": "2016-03-31T00:00:00+08:00",
+      "reportType": "first_quarterly_report",
+      "standardDate": "2016-03-31T00:00:00+08:00",
+      "stockCode": "300571"
+    },
+    {
+      "date": "2015-12-31T00:00:00+08:00",
+      "currency": "CNY",
+      "reportDate": "2015-12-31T00:00:00+08:00",
+      "reportType": "annual_report",
+      "standardDate": "2015-12-31T00:00:00+08:00",
+      "h_y": {
+        "profitStatement": {
+          "np": {
+            "t": 25748087.54
+          },
+          "oi": {
+            "t": 168201886.15
+          }
+        },
+        "balanceSheet": {
+          "ar": {
+            "t": 68724995.43
+          },
+          "tca_tcl_r": {
+            "t": 4.555679282613403
+          },
+          "i": {
+            "t": 0
+          }
+        },
+        "cashFlow": {
+          "ncffoa": {
+            "t": 13605862.45
+          }
+        },
+        "metrics": {
+          "fcf": {
+            "t": 9469026.09
+          }
+        }
+      },
+      "stockCode": "300571"
+    }
+  ]
+}
