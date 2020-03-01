@@ -9,7 +9,6 @@ import json
 import datetime
 from dateutil.parser import parse
 from pandas import ExcelWriter
-from dotenv import load_dotenv
 from pathlib import Path
 
 # NOTE: Need to update the list when the time changes.
@@ -103,9 +102,9 @@ def evaluate_stats(res):
     tca_tcl_good_flag = all( rate >= 1 for rate in tca_tcl_list )
 
     for i in range(1, len(earning_diff)):
-        # 若连续两年的应收账款大于营业收入，则舍弃。
+        # 若连续两年的应收账款上升幅度大于营业收入的上升幅度，则舍弃。
         receivables_over_flag = receivables_over_flag or ( receivables_diff[i - 1] > earning_diff[i - 1] and receivables_diff[i] > earning_diff[i])
-        # 若连续两年的存货增长大于营业收入，则舍弃。
+        # 若连续两年的存货增长大于营业收入增长，则舍弃。
         inventory_over_flag = inventory_over_flag or ( inventory_diff[i - 1] > earning_diff[i - 1] and inventory_diff[i] > earning_diff[i])
 
     print('应收账款是否大于营业收入', receivables_over_flag)
@@ -218,7 +217,7 @@ if __name__ == '__main__':
     os.environ['API_TOKEN'] = '6c766b77-2084-4d6c-8324-e513658ca5a6'
 
     # 1. Read data.
-    df = pandas.read_html('2020-01-06.html')[0]
+    df = pandas.read_html('2020-02-18.html')[0]
 
     # 2. Reformat data.
     df.columns = df.head(1).values[0]
